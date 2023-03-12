@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+:root {
+    --font-tilt-warp: 'Tilt Warp', sans-serif;
+    --white-color: #f5f5f5;
+    --dark-blue-color: #111520;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--dark-blue-color);
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    color: var(--white-color);
+    font-family: var(--font-tilt-warp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container__cap {
+    width: 6.25rem;
+}
+
+.container__name {
+    font-size: 3rem;
+}
+
+.container__description {
+    font-size: 1.5rem;
+    text-decoration: underline 3px;
+}
